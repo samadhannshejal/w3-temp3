@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+    <script src="https://kit.fontawesome.com/e10251a52d.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./CSS/style.css">4
+    <link rel="stylesheet" href="./CSS/all.min.css">
+
+    <title>Task 6</title>
+</head>
+<body>
+  <!-- navbar -->
+        <nav class="navbar dark-blue-theme navbar-expand-sm fixed-top p-0">
+            <div class="container-fluid p-0">
+                <a class="navbar-brand m-0 bg-hover-grey" href="#home">
+                    <i class="fa-light fa fa-house me-3"></i>
+                    LOGO</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                        <li class="nav-item d-none d-sm-block">
+                            <a class="nav-link bg-hover-white" aria-current="page" href="#team">
+                                <i class="fa fa-globe"></i></a>
+                        </li>
+                        <li class="nav-item d-none d-sm-block">
+                            <a class="nav-link bg-hover-white" href="#work">
+                                <i class="fa fa-user"></i></a>
+                        </li>
+
+                        <li class="nav-item d-none d-sm-block">
+                            <a class="nav-link bg-hover-white" href="#work">
+                                <i class="fa fa-envelope"></i></a>
+                        </li>
+
+                        
+                        <li class="nav-item d-block d-sm-none">
+                            <a class="nav-link bg-hover-grey" href="#work">
+                                LINK 3</a>
+                        </li>
+
+                        <li class="nav-item d-block d-sm-none">
+                            <a class="nav-link bg-hover-grey" href="#work">
+                                LINK 2</a>
+                        </li>
+
+                        <li class="nav-item d-block d-sm-none">
+                            <a class="nav-link bg-hover-grey" href="#work">
+                                MY PROFILE</a>
+                        </li>
+
+                        <li class="nav-item dropdown d-none d-sm-block">
+                            <a class="nav-link dropdown-toggle bg-hover-grey" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <i class="fa fa-bell position-relative">
+                                    <span class="badge w3-right w3-small bg-green">3</span>
+                                </i></a>
+                            </a>
+                            <ul class="dropdown-menu rounded-0">
+                                <li><a class="dropdown-item bg-hover-grey" href="#">One new friend request</a></li>
+                                <li><a class="dropdown-item bg-hover-grey" href="#">John doe posted on your wall</a></li>
+                                <li><a class="dropdown-item bg-hover-grey" href="#">jane liked your post</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <a class="float-end d-none d-sm-block nav-profile-pic bg-hover-white" role="search">
+                        <img src="https://www.w3schools.com/w3images/avatar2.png" class="rounded-circle" style="height:23px;width:23px" alt="Avatar">
+
+                    </a>
+
+                </div>
+            </div>
+    </nav>
+
+
+    <div class="main-container">
+
+        <div class="row g-0">
+            <div class="col-12 col-sm-3">
+                <div class="card px-3 m-3 m-sm-0">
+                    <h4 class="card-title text-center section-header mb-3">My Profile</h4>
+                    <p class="text-center mb-0"><img src="https://www.w3schools.com/w3images/avatar3.png" class="rounded-circle" style="height:106px;width:106px" alt="Avatar"></p>
+                    <hr>
+                    <p class="font-size-15"><i class="fa fa-pencil fa-fw me-3 soft-blue-text"></i>Designer, UI</p>
+                    <p class="font-size-15"><i class="fa fa-home fa-fw me-3 soft-blue-text">
+                    </i>London, UK</p>
+                    <p class="font-size-15"><i class="fa fa-birthday-cake me-3 soft-blue-text"></i> April 1, 1988</p> 
+                </div>
+                <br>
+                <div class="accordion accordion-flush m-3 m-sm-0"  id="accordionFlushExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed py-2 px-3 soft-blue-theme" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            <i class="fa fa-circle-o-notch fa-fw me-3"></i>
+                            My Groups
+                        </button>
+                      </h2>
+                      <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">some text....</div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingTwo">
+                        <button class="accordion-button collapsed py-2 px-3 soft-blue-theme" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        <i class="fa fa-calendar-check-o fa-fw me-3"></i>
+                          My Events
+                        </button>
+                      </h2>
+                      <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Some Text...</div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed py-2 px-3 soft-blue-theme" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                            <i class="fa fa-users fa-fw me-3"></i>
+                          My Photos
+                        </button>
+                      </h2>
+                      <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <div class="row px-3 pt-2">
+                                <div class="col-12 col-sm-6">
+                                    <img src="img/asset 2.jpeg" class="mb-3" width="100%" alt="">
+                                    <img src="img/asset 3.jpeg" class="mb-3" width="100%" alt="">
+                                    <img src="img/asset 4.jpeg" class="" width="100%" alt="">
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <img src="img/asset 4.jpeg" class="mb-3" width="100%" alt="">
+                                    <img src="img/asset 5.jpeg" class="mb-3" width="100%" alt="">
+                                    <img src="img/asset 6.jpeg" class="" width="100%" alt="">
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <br>
+                    <div class="card  bg-white d-none d-sm-block">
+                        <div class="px-3">
+                          <p class="py-3 m-0">Interests</p>
+                          <p class="pb-3 m-0">
+                            <span class="tags light-black-theme">News</span>
+                            <span class="tags light-black-theme">W3Schools</span>
+                            <span class="tags dark-blue-theme">Labels</span>
+                            <span class="tags dark-blue-theme">Games</span>
+                            <span class="tags black-theme">Friends</span>
+                            <span class="tags soft-blue-theme">Games</span>
+                            <span class="tags soft-blue-theme">Friends</span>
+                            <span class="tags soft-blue-theme">Food</span>
+                            <span class="tags grey-theme">Design</span>
+                            <span class="tags grey-theme">Art</span><br>
+                            <span class="tags bg-white">Photos</span>
+                          </p>
+                        </div>
+                      </div>
+                      <br>
+                      <div class="alert-container mb-3 px-3 m-3 m-sm-0" id="alertBox">
+                        <span onclick="closeAlert()" class="btn rounded-0 x-btn">
+                        <i class="fa fa-remove"></i>
+                        </span>
+                        <p class="my-3"><strong>Hey!</strong></p>
+                        <p class="my-3">People are looking at your profile. Find out who.</p>
+                      </div>
+            </div>
+
+            
+            <!-- <div class="col-12 col-sm-7">    
+                <div class="row g-0 m-0 px-2 w-100">
+                    <div class="col-12 g-0 m-0 px-2 ">
+                        <div class="post-section bg-white">
+                            <div class="w3-container w3-padding">
+                              <h6 class="template-by-text">Social Media template by w3.css</h6>
+                              <p contenteditable="true" class="status-field">Status: Feeling Blue</p>
+                              <button type="button" class="btn post-btn rounded-0 grey-hover"><i class="fa fa-pencil"></i> &nbsp;Post</button> 
+                            </div>
+                          </div><br> 
+                            <div class="bg-white px-3 post-box"><br>
+                            <img src="https://www.w3schools.com/w3images/avatar2.png" alt="Avatar" class="float-start rounded-circle me-3 " style="width:60px">
+                            <span class="float-end opacity-50">1 min</span>
+                            <h4 class="section-header">John Doe</h4><br>
+                            <hr class="hr-clear">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                              <div class="row g-0">
+                                <div class="col-12 col-sm-6 ps-2 ps-sm-1 pe-2">
+                                  <img src="https://www.w3schools.com/w3images/lights.jpg" width="100%"alt="Northern Lights" class="w3-margin-bottom">
+                                </div>
+                                <div class="col-12 col-sm-6 ps-2 pe-2 pe-se-1 mt-1 mt-sm-0">
+                                  <img src="https://www.w3schools.com/w3images/nature.jpg" width="100%" alt="Nature" class="w3-margin-bottom">
+                              </div>
+                            </div>
+                            <button type="button" class="like-btn grey-hover my-3"><i class="fa fa-thumbs-up"></i> &nbsp;Like</button> 
+                            <button type="button" class="comment-btn grey-hover my-3"><i class="fa fa-comment"></i> &nbsp;Comment</button> 
+                        </div><br>
+
+                        <div class="bg-white px-3 post-box"><br>
+                            <img src="https://www.w3schools.com/w3images/avatar5.png" alt="Avatar" class="float-start rounded-circle me-3 " style="width:60px">
+                            <span class="float-end opacity-50">1 min</span>
+                            <h4 class="section-header">John Doe</h4><br>
+                            <hr class="hr-clear">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>  
+                            <button type="button" class="like-btn grey-hover mb-3"><i class="fa fa-thumbs-up"></i> &nbsp;Like</button> 
+                            <button type="button" class="comment-btn grey-hover mb-3"><i class="fa fa-comment"></i> &nbsp;Comment</button> 
+                        </div><br>
+
+                        <div class="bg-white px-3 post-box"><br>
+                            <img src="https://www.w3schools.com/w3images/avatar6.png" alt="Avatar" class="float-start rounded-circle me-3 " style="width:60px">
+                            <span class="float-end opacity-50">1 min</span>
+                            <h4 class="section-header">John Doe</h4><br>
+                            <hr class="hr-clear">
+                            <p class="my-3">Have u seen this??????</p>
+                              <div class="row g-0">
+                                <div class="col-12">
+                                  <img src="https://www.w3schools.com/w3images/nature.jpg" width="100%"alt="Northern Lights" class="mb-3">
+                                </div>
+                            </div>
+                            <p class="my-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <button type="button" class="like-btn grey-hover mb-3"><i class="fa fa-thumbs-up"></i> &nbsp;Like</button> 
+                            <button type="button" class="comment-btn grey-hover mb-3"><i class="fa fa-comment"></i> &nbsp;Comment</button> 
+                        </div><br><br>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-2">
+                <div class="post-box rounded bg-white text-center  m-3 m-sm-0">
+                    <div class="px-3">
+                      <p class="py-3 m-0">Upcoming Events:</p>
+                      <img src="https://www.w3schools.com/w3images/forest.jpg" alt="Forest" style="width:100%;">
+                      <p class="my-3"><strong>Holiday</strong></p>
+                      <p class="my-3">Friday 15:00</p>
+                      <p class="pb-3 m-0"><button class="info-btn bg-hover-grey">Info</button></p>
+                    </div>
+                  </div><br>
+                  <div class="card rounded bg-white text-center  m-3 m-sm-0">
+                    <div class="px-3">
+                      <p class="my-3">Friend Request</p>
+                      <img src="https://www.w3schools.com/w3images/avatar6.png" alt="Avatar" style="width:50%"><br>
+                      <span>Jane Doe</span>
+                      <div class="row opacity-50">
+                        <div class="col-12 col-sm-6  pe-sm-0">
+                          <button class="accept-btn bg-hover-grey" title="Accept"><i class="fa fa-check"></i></button>
+                        </div>
+                        <div class="col-12 col-sm-6 ps-sm-0">
+                          <button class="reject-btn bg-hover-grey" title="Decline"><i class="fa fa-remove"></i></button>
+                        </div>
+                      </div>
+                    </div>
+                  </div><br>
+                  <div class="card rounded b-gwhite py-3 text-center mx-3 m-sm-0">
+                    <p class="py-3 m-0">ADS</p>
+                  </div><br>
+
+                  <div class="bug-box card rounded bg-white text-center m-3 m-sm-0">
+                    <p class="my-3"><i class="fa fa-bug  fs-36"></i></p>
+                  </div>
+                </div>
+        </div>      
+    </div>
+
+    <footer>
+
+        <div class="footer-section">
+            <h5 class="footer-h">Footer</h5>
+        </div>
+
+        <div class="footer-section-2 py-3 ">
+            <p class="m-0">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-link">w3.css</a></p>
+        </div>
+        
+    </footer> -->
+
+    
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+            <script>
+                function closeAlert(){
+                    document.getElementById("alertBox").style.display="none";
+                }
+            </script>
+</body>
+
+</html>
